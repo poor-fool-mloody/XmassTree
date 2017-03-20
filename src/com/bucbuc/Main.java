@@ -15,7 +15,7 @@ public class Main {
 
 	private static void drawTree(int lvls, String s, String dir) {
 
-		switch (dir) {
+		switch (dir.toLowerCase()) {
 		case "up":
 			for (int i = 0; i < lvls; i++) {
 				drawBranch(lvls - i - 1, " ");
